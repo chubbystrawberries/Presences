@@ -1,10 +1,10 @@
 const presence = new Presence({
-		clientId: "1138058486262005863",
+		clientId: "1159826855038308362",
 	}),
 	browsingTimestamp = Math.floor(Date.now() / 1000);
 
 const enum Assets {
-	Logo = "https://cdn.rcd.gg/PreMiD/websites/M/MoviesJoy/assets/logo.png",
+	Logo = "https://i.imgur.com/nD7ZB3v.jpeg",
 }
 
 let video = { exists: false, duration: 0, currentTime: 0, paused: true };
