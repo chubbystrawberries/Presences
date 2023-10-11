@@ -1,19 +1,19 @@
 {
 	"$schema": "https://schemas.premid.app/metadata/1.9",
 	"author": {
-		"id": "638080361179512853",
-		"name": "dark_ville"
+		"id": "261744277154037762",
+		"name": "atermelon"
 	},
-	"service": "MoviesJoy",
+	"service": "SoapTV",
 	"description": {
-		"en": "Watch Free HD Movies and TV Series online on Moviesjoy"
+		"en": "You can watch all videos without logging in or registration"
 	},
-	"url": "moviesjoy.is",
-	"regExp": "(www[.])?(ww[0-9]{0,2}[.])?moviesjoy[.].*",
-	"version": "1.0.1",
-	"logo": "https://cdn.rcd.gg/PreMiD/websites/M/MoviesJoy/assets/logo.png",
-	"thumbnail": "https://cdn.rcd.gg/PreMiD/websites/M/MoviesJoy/assets/thumbnail.png",
-	"color": "#6A43B0",
+	"url": "Soaper.Tv","soaper.tv","Soaper.live",
+	"regExp": "(www[.])?(ww[0-9]{0,2}[.])?SoaperTV[.].*",
+	"version": "15.0.0",
+	"logo": "https://soaper.tv/logo.png",
+	"thumbnail": "https://i.imgur.com/nD7ZB3v.jpeg",
+	"color": "#ffffff",
 	"category": "videos",
 	"tags": [
 		"movies",
