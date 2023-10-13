@@ -1,10 +1,10 @@
 const presence: Presence = new Presence({
-		clientId: "612415911877672971",
+		clientId: "1162487709361782904",
 	}),
 	browsingTimestamp = Math.floor(Date.now() / 1000),
 	presenceData: PresenceData = {
 		largeImageKey:
-			"https://cdn.rcd.gg/PreMiD/websites/W/Webtoon/assets/logo.jpg",
+			"https://imgur.com/yEnTUXk",
 		startTimestamp: browsingTimestamp,
 	},
 	strings = presence.getStrings({
@@ -16,15 +16,15 @@ let webtoon: string, chapter: string, seriesPage: string;
 presence.on("UpdateData", async () => {
 	if (path.includes("list")) {
 		webtoon = document.querySelector(".subj").textContent;
-		presenceData.details = "Looking at a webtoon";
-		presenceData.state = webtoon;
+		presenceData.details = "Looking at a comic";
+		presenceData.state = comic;
 		delete presenceData.smallImageKey;
 	} else if (path.includes("viewer")) {
 		webtoon = document.querySelector("div.subj_info > a.subj").textContent;
 		chapter = `${
 			document.querySelector("div.subj_info > .subj_episode").textContent
 		} - ${document.querySelector(".tx").textContent}`;
-		presenceData.details = `Reading ${webtoon}`;
+		presenceData.details = `Reading ${comic}`;
 		presenceData.state = chapter;
 		delete presenceData.smallImageKey;
 	} else if (path.includes("dailySchedule")) {
